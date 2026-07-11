@@ -1,0 +1,21 @@
+name = "Loco"
+grammar = "loco"
+path_suffixes = ["loco"]
+
+line_comments = ["// "]
+autoclose_before = "}])"
+
+brackets = [
+  { pair = "{ }",   not_in = ["string"] },
+  { pair = "( )",   not_in = ["string"] },
+  { pair = "[ ]",   not_in = ["string"] },
+]
+
+scope_opt_in = [
+  "source.loco",
+  "comment.line.double-slash.loco",
+]
+
+indent = { tab = "tab", width = 4 }
+
+language_servers = []

@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate extension.toml
+        run: |
+          python3 -c "
+          import tomllib
+          with open('extension.toml', 'rb') as f:
+              tomllib.load(f)
+          print('extension.toml valid')
+          "
+      - name: Check query files
+        run: |
+          ls languages/rail/*.scm

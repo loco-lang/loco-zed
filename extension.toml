@@ -1,0 +1,15 @@
+id = "loco"
+name = "Loco"
+description = "Loco DSL language support for model railroad automation"
+version = "0.1.0"
+schema_version = 1
+
+[grammars.loco]
+repository = "https://github.com/loco-lang/tree-sitter-loco"
+rev = "main"
+
+[languages.loco]
+name = "Loco"
+grammar = "loco"
+path_suffixes = ["loco"]
+line_comments = ["// "]
