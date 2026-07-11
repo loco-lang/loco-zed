@@ -13,3 +13,8 @@ name = "Loco"
 grammar = "loco"
 path_suffixes = ["loco"]
 line_comments = ["// "]
+autoclose_before = "}])"
+scope_opt_in = [
+  "source.loco",
+  "comment.line.double-slash.loco",
+]
