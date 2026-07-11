@@ -1,3 +1,6 @@
+[![CI](https://github.com/loco-lang/loco-zed/actions/workflows/ci.yml/badge.svg)](https://github.com/loco-lang/loco-zed/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 # Loco for Zed
 
 Loco language support for the [Zed editor](https://zed.dev).
