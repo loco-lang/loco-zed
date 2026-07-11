@@ -35,8 +35,9 @@ To update, copy the latest from that repo.
 
 ## Related
 
-- [Loco compiler](https://github.com/loco-lang/rail)
 - [Tree-sitter grammar](https://github.com/loco-lang/tree-sitter-loco)
+- [Loco compiler](https://github.com/loco-lang/loco)
+- [All editor extensions](https://github.com/loco-lang/tree-sitter-loco#editor-support)
 
 ## License
 

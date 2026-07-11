@@ -21,4 +21,4 @@ jobs:
           "
       - name: Check query files
         run: |
-          ls languages/rail/*.scm
+          ls languages/loco/*.scm
